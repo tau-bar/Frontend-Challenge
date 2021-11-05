@@ -7,7 +7,7 @@
 
 
 # Quick Start
-1. Ensure you have `yarn` installed.
+1. Ensure you have `yarn` installed. If you do not have `yarn` installed, here is the [installation guide](https://yarnpkg.com/getting-started/install).
 2. Copy the HTTPS clone link through the method shown below:
 ![Screenshot 2021-11-06 at 2 51 53 AM](https://user-images.githubusercontent.com/61085398/140563471-e739e147-e7c3-4e85-8383-7f8d0f725b9d.png)
 3. Clone the repo to your local device.
