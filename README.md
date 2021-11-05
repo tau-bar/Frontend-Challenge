@@ -1,3 +1,12 @@
+# Quick Start
+1. Ensure you have `yarn` installed.
+2. Copy the HTTPS clone link as shown from below:
+![Screenshot 2021-11-06 at 2 51 53 AM](https://user-images.githubusercontent.com/61085398/140563471-e739e147-e7c3-4e85-8383-7f8d0f725b9d.png)
+3. Clone the repo to your local device.
+4. `cd Frontend-Challenge` to enter the Frontend-Challenge directory, followed by `cd src` to enter the src folder.
+5. Run `yarn install` to install the required dependencies.
+6. Run `yarn start`.
+
 # Crater-Frontend-Challenge
 > Welcome to the Crater Frontend Challenge! The purpose of this challenge is to assess your skills and approach to composing a simple web app. We will assess the **generated HTML, CSS, and JS** output. Although this is a basic exercise, we'll be looking for **simple, well-designed and performant** in the submission.
 
