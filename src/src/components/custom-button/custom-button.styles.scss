@@ -1,0 +1,28 @@
+.custom-button {
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    width: 120px;
+    padding: 10px;
+
+    &:hover {
+        background-color: #222831;
+        box-shadow:
+                1px 1px #dc3c4d,
+                2px 2px #dc3c4d,
+                3px 3px #dc3c4d;
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+        transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+
+    &:active {
+        box-shadow:
+                0.5px 0.5px #dc3c4d,
+                1px 1px #dc3c4d,
+                1.5px 1.5px #dc3c4d;
+        -webkit-transform: translateX(-1.5px);
+        transform: translateX(-1.5px);
+        transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+}
