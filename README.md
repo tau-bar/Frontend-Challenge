@@ -1,3 +1,11 @@
+# Completed Requirements
+- [X] Team entries have two states: "collapsed" and "expanded". In the collapsed state, the team positions are hidden.
+- [X] Position entries can be "selected" and "unselected".
+- [X] Team entries can be 'selected' and 'unselected'. When any position entry in a team entry is 'checked', the team entry itself will be 'checked'. When a team entry is 'unchecked', all of its job entries need to be 'unchecked' as well.
+- [X] The 'number of hires' in a team entry (the number in square brackets in the example) is equal to the sum of the number of hires for all the 'selected' job entries in the team (the number in square brackets in the example).
+- [X] The web page in the example image does not have any CSS, so please do your best to add style and improve the design. We prefer if you write your own CSS instead of using third party CSS frameworks.
+
+
 # Quick Start
 1. Ensure you have `yarn` installed.
 2. Copy the HTTPS clone link as shown from below:
