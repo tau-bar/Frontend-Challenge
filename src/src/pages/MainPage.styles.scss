@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'Futura';
+    src: local('Futura'), url(../fonts/futur.ttf) format('truetype');}
+
+.opening-challenge-title {
+    font-size: 50px;
+    font-family: 'Futura';
+    margin: 0;
+    padding: 20px;
+}
+
+.main-page-body {
+    display: flex;
+    flex-direction: row;
+}

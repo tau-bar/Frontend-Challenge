@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import JobComponent from "../job-component/job-component";
+import './team-component.styles.scss';
 
 const TeamComponent = ({ teamData }) => {
     /**
@@ -113,11 +114,13 @@ const TeamComponent = ({ teamData }) => {
     }
 
     return (
-        <div>
-        <input onChange = {handleTeamCheckOnChange} checked={isTeamChecked} type="checkbox"/>
-        <label>{teamData.name} [{teamTotal}]</label>
-        <button onClick = {() => setIsCollapsed(!isCollapsed)}>{isCollapsed ? "Expand" : "Collapse"}</button>
+        <div className="team-component">
+        <div className="team-name">
+            <input onChange = {handleTeamCheckOnChange} checked={isTeamChecked} type="checkbox"/>
+            <label >{teamData.name} [{teamTotal}]</label>
+        </div>
         {isCollapsed ? null : teamData.jobs.map((job, index) => <JobComponent key = {`job-${teamData.name}-${index}`} checked = {checkedJobs[job.name]} updateJobCheck = {updateJobCheck} jobData = {job}/>)}
+        <button onClick = {() => setIsCollapsed(!isCollapsed)}>{isCollapsed ? "Expand" : "Collapse"}</button>
         </div>
     )
 }
