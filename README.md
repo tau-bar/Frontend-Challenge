@@ -1,3 +1,6 @@
+# Demo
+[](./demo.mov)
+
 # Completed Requirements
 - [X] Team entries have two states: "collapsed" and "expanded". In the collapsed state, the team positions are hidden.
 - [X] Position entries can be "selected" and "unselected".
