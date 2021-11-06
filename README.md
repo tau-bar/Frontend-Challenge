@@ -1,5 +1,5 @@
 # Demo
-[](./demo.mov)
+![](demo.gif)
 
 # Completed Requirements
 - [X] Team entries have two states: "collapsed" and "expanded". In the collapsed state, the team positions are hidden.
